@@ -1,0 +1,101 @@
+\documentclass[10pt]{article}
+\usepackage[letterpaper,margin=0.65in]{geometry}
+\usepackage{newtxtext}
+\usepackage[T1]{fontenc}
+\usepackage{microtype}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage[colorlinks=true,urlcolor=blue!50!black]{hyperref}
+\pagestyle{empty}
+\setlist[itemize]{leftmargin=1.1em,itemsep=1pt,topsep=2pt,parsep=0pt}
+\titleformat{\section}{\large\bfseries\scshape}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{9pt}{5pt}
+\newcommand{\entry}[4]{\noindent\textbf{#1} \hfill #2\\ \textit{#3} \hfill #4\par}
+
+\begin{document}
+
+\begin{center}
+  {\LARGE\bfseries Ali Zulfiqar}\\[3pt]
+  Lahore, Pakistan \;\textbullet\;
+  \href{mailto:codewithfourtix@gmail.com}{codewithfourtix@gmail.com} \;\textbullet\;
+  \href{https://github.com/codewithfourtix}{github.com/codewithfourtix} \;\textbullet\;
+  \href{https://www.linkedin.com/in/codewithfourtix/}{linkedin.com/in/codewithfourtix}
+\end{center}
+
+\section{Experience}
+
+\entry{Zikra Infotech LLC}{Jun 2025 -- present}{Software Engineer, MillOS}{Remote}
+\begin{itemize}
+  \item Built the drawing annotation engine for an agentic millwork estimation
+  platform: deterministic geometry recovery from CAD-exported PDFs, printed
+  dimension and scale-note parsing, and a verified correction loop. Reached
+  exact mark placement (median width error 0.1 in) on production drawings.
+  \item Authored the accompanying preprint, Annotation by Arithmetic
+  (\href{https://doi.org/10.5281/zenodo.21772948}{DOI 10.5281/zenodo.21772948}).
+  \item Own the estimation studio frontend (Next.js) and significant parts of
+  the agent reliability layer: stream recovery, run-state truth, tool-contract
+  hardening across a LangGraph multi-agent pipeline.
+  \item Migrated production model serving between inference providers with a
+  fallback lane and zero behavior change for downstream agents.
+\end{itemize}
+
+\entry{Claimlyt}{2025 -- present}{Co-founder}{}
+\begin{itemize}
+  \item AI platform automating appeals against insurance claim denials for US
+  healthcare organizations; seven-node LangGraph pipeline.
+\end{itemize}
+
+\section{Research}
+
+\entry{Annotation by Arithmetic: Exact Mark Placement on Construction Drawings
+by Separating Perception from Measurement}{2026}{Preprint, Zenodo.
+\href{https://doi.org/10.5281/zenodo.21772948}{doi:10.5281/zenodo.21772948}}{}
+\begin{itemize}
+  \item A vision-language model names items and reads printed dimensions; a
+  deterministic engine measures, places, and verifies every mark. Includes a
+  five-class taxonomy of placement failures from instrumented production runs.
+\end{itemize}
+
+\section{Selected Projects}
+
+\begin{itemize}
+  \item \textbf{TURF} -- multiplayer territory game on real world maps
+  (\href{https://turf-murex.vercel.app}{live},
+  \href{https://github.com/codewithfourtix/turf}{code}): server-authoritative
+  multiplayer, canvas engine over Leaflet, Playwright smoke suite.
+  \item \textbf{ember} -- LLM inference engine from scratch in Rust running
+  Qwen2.5 locally (\href{https://github.com/codewithfourtix/ember}{code}).
+  \item \textbf{substrate} -- a GPT built from first principles in pure
+  JavaScript (\href{https://github.com/codewithfourtix/substrate}{code}).
+  \item \textbf{blueline} -- a browser-based self-driving stack: perception,
+  planning, control (\href{https://github.com/codewithfourtix/blueline}{code}).
+  \item \textbf{gopher-context} -- Go MCP server connecting Claude to any
+  codebase (\href{https://github.com/codewithfourtix/gopher-context}{code}).
+  \item \textbf{Zippo} -- utility tool, 200+ active users in week one
+  (\href{https://getzippo.com}{getzippo.com}).
+\end{itemize}
+
+\section{Awards and Community}
+
+\begin{itemize}
+  \item First place, AI in Civic Innovation hackathon (sachbatao); first
+  place, Aicoo hackathon (front-desk).
+  \item 86k+ followers on Instagram
+  (\href{https://www.instagram.com/codewithfourtix/}{@codewithfourtix}) and 7k+
+  on LinkedIn, writing about software and AI.
+  \item Open-source contributions to ScanCode Toolkit.
+\end{itemize}
+
+\section{Education}
+
+\entry{FAST-NUCES, Lahore}{2024 -- 2028 (expected)}{BS Computer Science}{}
+
+\section{Skills}
+
+\noindent
+\textbf{Languages:} TypeScript/JavaScript, Python, Rust, Go, C\#, SQL.\\
+\textbf{Web:} React, Next.js (App Router), Node, Express, PostgreSQL, Supabase.\\
+\textbf{AI/Agents:} LangChain, LangGraph, RAG, MCP, agent pipelines, vision
+model integration, Docker.
+
+\end{document}

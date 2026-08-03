@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 160">
+  <rect x="1" y="1" width="198" height="158" fill="#ffffff" stroke="#c9d1d9"/>
+  <!-- AI-slop line, struck out -->
+  <line x1="34" y1="52" x2="150" y2="52" stroke="#bbb" stroke-width="6" stroke-linecap="round"/>
+  <line x1="30" y1="52" x2="154" y2="52" stroke="#e6194b" stroke-width="2.5"/>
+  <!-- em dash killed -->
+  <text x="160" y="57" font-family="Georgia,serif" font-size="16" fill="#bbb">&#8212;</text>
+  <line x1="156" y1="60" x2="180" y2="46" stroke="#e6194b" stroke-width="2.5"/>
+  <!-- human line, pen -->
+  <path d="M34 108 q24 -12 46 0 t46 0" fill="none" stroke="#1772d0" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M134 100 l26 -20 l8 8 l-20 26 l-14 2 z" fill="none" stroke="#444" stroke-width="2" stroke-linejoin="round"/>
+</svg>

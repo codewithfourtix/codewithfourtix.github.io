@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 160">
+  <rect x="1" y="1" width="198" height="158" fill="#ffffff" stroke="#c9d1d9"/>
+  <!-- sheet -->
+  <rect x="26" y="18" width="112" height="124" fill="none" stroke="#444" stroke-width="1.5"/>
+  <line x1="26" y1="118" x2="138" y2="118" stroke="#444" stroke-width="1"/>
+  <line x1="112" y1="118" x2="112" y2="142" stroke="#444" stroke-width="1"/>
+  <!-- drawing content -->
+  <rect x="38" y="34" width="56" height="30" fill="none" stroke="#777" stroke-width="1"/>
+  <rect x="38" y="76" width="34" height="26" fill="none" stroke="#777" stroke-width="1"/>
+  <rect x="76" y="76" width="18" height="26" fill="none" stroke="#777" stroke-width="1"/>
+  <rect x="104" y="34" width="22" height="68" fill="none" stroke="#777" stroke-width="1"/>
+  <!-- ledger rows -->
+  <line x1="152" y1="36" x2="184" y2="36" stroke="#1772d0" stroke-width="3"/>
+  <line x1="152" y1="52" x2="184" y2="52" stroke="#1772d0" stroke-width="3"/>
+  <line x1="152" y1="68" x2="184" y2="68" stroke="#1772d0" stroke-width="3"/>
+  <line x1="152" y1="84" x2="176" y2="84" stroke="#1772d0" stroke-width="3"/>
+  <!-- arrow -->
+  <path d="M140 60 h6 m0 0 l-4 -3 m4 3 l-4 3" stroke="#444" stroke-width="1.5" fill="none"/>
+  <text x="150" y="112" font-family="Helvetica,Arial" font-size="9" fill="#555">$ takeoff</text>
+</svg>

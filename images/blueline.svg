@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 160">
+  <rect x="1" y="1" width="198" height="158" fill="#ffffff" stroke="#c9d1d9"/>
+  <!-- road -->
+  <path d="M30 140 C60 90 140 90 176 44" fill="none" stroke="#d5dbe0" stroke-width="18" stroke-linecap="round"/>
+  <!-- planned path -->
+  <path d="M30 140 C60 90 140 90 176 44" fill="none" stroke="#1772d0" stroke-width="3" stroke-dasharray="7 6" stroke-linecap="round"/>
+  <!-- car -->
+  <g transform="translate(78,104) rotate(-18)">
+    <rect x="-14" y="-8" width="28" height="16" rx="4" fill="none" stroke="#444" stroke-width="2.5"/>
+    <line x1="-4" y1="-8" x2="-4" y2="8" stroke="#444" stroke-width="1.5"/>
+  </g>
+  <!-- lidar arcs -->
+  <path d="M104 84 a26 26 0 0 1 18 -8" fill="none" stroke="#f09228" stroke-width="2"/>
+  <path d="M108 94 a38 38 0 0 1 28 -12" fill="none" stroke="#f09228" stroke-width="2"/>
+</svg>

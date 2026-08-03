@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 160">
+  <rect x="1" y="1" width="198" height="158" fill="#ffffff" stroke="#c9d1d9"/>
+  <!-- street grid -->
+  <line x1="20" y1="50" x2="180" y2="50" stroke="#d5dbe0" stroke-width="4"/>
+  <line x1="20" y1="100" x2="180" y2="100" stroke="#d5dbe0" stroke-width="4"/>
+  <line x1="60" y1="12" x2="60" y2="148" stroke="#d5dbe0" stroke-width="4"/>
+  <line x1="120" y1="12" x2="120" y2="148" stroke="#d5dbe0" stroke-width="4"/>
+  <line x1="160" y1="12" x2="160" y2="148" stroke="#d5dbe0" stroke-width="3"/>
+  <!-- claimed turf -->
+  <path d="M60 50 h60 v50 h-60 z" fill="#1772d0" fill-opacity="0.25" stroke="none"/>
+  <!-- trail loop -->
+  <path d="M60 50 h60 v50 h-60 z" fill="none" stroke="#1772d0" stroke-width="3.5" stroke-linejoin="round"/>
+  <!-- player -->
+  <circle cx="60" cy="100" r="7" fill="#f09228"/>
+  <!-- rival turf -->
+  <path d="M120 100 h40 v48 h-40 z" fill="#e6194b" fill-opacity="0.18"/>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 160">
+  <rect x="1" y="1" width="198" height="158" fill="#ffffff" stroke="#c9d1d9"/>
+  <!-- transformer blocks -->
+  <rect x="60" y="112" width="80" height="18" rx="3" fill="none" stroke="#444" stroke-width="2"/>
+  <rect x="60" y="86" width="80" height="18" rx="3" fill="none" stroke="#444" stroke-width="2"/>
+  <rect x="60" y="60" width="80" height="18" rx="3" fill="none" stroke="#1772d0" stroke-width="2.5"/>
+  <rect x="60" y="34" width="80" height="18" rx="3" fill="none" stroke="#444" stroke-width="2"/>
+  <!-- residual stream -->
+  <path d="M48 130 v-100" stroke="#f09228" stroke-width="2"/>
+  <path d="M48 121 h12 M48 95 h12 M48 69 h12 M48 43 h12" stroke="#f09228" stroke-width="2"/>
+  <!-- output token -->
+  <text x="150" y="30" font-family="Consolas,monospace" font-size="12" fill="#555">"the"</text>
+</svg>

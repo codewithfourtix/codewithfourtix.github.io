@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 160">
+  <rect x="1" y="1" width="198" height="158" fill="#ffffff" stroke="#c9d1d9"/>
+  <!-- flame -->
+  <path d="M74 118 c-16 -14 -14 -34 -2 -48 c-2 14 8 18 12 10 c4 -8 0 -18 -4 -26 c22 10 34 30 26 52 c-6 16 -22 22 -32 12 z"
+        fill="none" stroke="#e6194b" stroke-width="3" stroke-linejoin="round"/>
+  <!-- token stream -->
+  <rect x="118" y="44" width="14" height="14" fill="none" stroke="#444" stroke-width="2"/>
+  <rect x="138" y="44" width="14" height="14" fill="none" stroke="#444" stroke-width="2"/>
+  <rect x="158" y="44" width="14" height="14" fill="none" stroke="#444" stroke-width="2"/>
+  <rect x="118" y="70" width="14" height="14" fill="none" stroke="#444" stroke-width="2"/>
+  <rect x="138" y="70" width="14" height="14" fill="none" stroke="#1772d0" stroke-width="2.5"/>
+  <text x="118" y="112" font-family="Consolas,monospace" font-size="11" fill="#555">rust</text>
+</svg>
