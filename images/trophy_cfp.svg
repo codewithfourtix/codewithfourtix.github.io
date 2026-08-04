@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 160">
+  <rect x="1" y="1" width="198" height="158" fill="#ffffff" stroke="#c9d1d9"/>
+  <path d="M76 34 h48 v18 a24 24 0 0 1 -48 0 z" fill="#f09228" fill-opacity="0.15" stroke="#f09228" stroke-width="3"/>
+  <path d="M76 40 h-14 a14 14 0 0 0 14 16" fill="none" stroke="#f09228" stroke-width="3"/>
+  <path d="M124 40 h14 a14 14 0 0 1 -14 16" fill="none" stroke="#f09228" stroke-width="3"/>
+  <line x1="100" y1="76" x2="100" y2="92" stroke="#f09228" stroke-width="3"/>
+  <rect x="82" y="92" width="36" height="10" fill="none" stroke="#f09228" stroke-width="3"/>
+  <text x="93" y="55" font-family="Helvetica,Arial" font-size="18" font-weight="bold" fill="#f09228">1</text>
+  <text x="64" y="128" font-family="Helvetica,Arial" font-size="11" fill="#555">150+ teams</text>
+</svg>
