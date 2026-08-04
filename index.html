@@ -16,19 +16,25 @@
         <td style="padding:2.5%;width:63%;vertical-align:middle">
           <p style="text-align:center"><name>Ali Zulfiqar</name></p>
           <p>
-            I build AI systems at <a href="https://zikrainfotech.com/">Zikra Infotech</a>,
-            where I work on MillOS, an agentic estimation platform for commercial
-            millwork. I co-founded Claimlyt, an AI platform for appealing insurance
-            claim denials. I am a CS undergraduate at FAST-NUCES Lahore (Class of
-            2028), and I write about building software to an audience of 90k+ as
-            <a href="https://www.instagram.com/codewithfourtix/">codewithfourtix</a>.
+            I am a founding engineer on MillOS at
+            <a href="https://zikrainfotech.com/">Zikra Infotech</a>, building
+            agent-native estimation for commercial millwork. I co-founded Claimlyt,
+            an AI platform for appealing insurance claim denials, and I have
+            open-source fixes merged in
+            <a href="https://github.com/google-deepmind/optax/pull/1715">Google DeepMind's optax</a>,
+            <a href="https://github.com/sgl-project/sglang/pull/28845">SGLang</a>, and
+            <a href="https://github.com/RocketChat/Rocket.Chat/pull/41030">Rocket.Chat</a>.
+            I am a CS undergraduate at FAST-NUCES Lahore (Class of 2028), and I write
+            about building software to an audience of 88k+ as
+            <a href="https://instagram.com/code_with_fourtix">codewithfourtix</a>.
           </p>
           <p style="text-align:center">
-            <a href="mailto:codewithfourtix@gmail.com">Email</a> &nbsp/&nbsp
+            <a href="mailto:aalizulfiqar46@gmail.com">Email</a> &nbsp/&nbsp
             <a href="data/AliZulfiqar-resume.pdf">Resume</a> &nbsp/&nbsp
             <a href="https://github.com/codewithfourtix/">Github</a> &nbsp/&nbsp
-            <a href="https://www.linkedin.com/in/codewithfourtix/">LinkedIn</a> &nbsp/&nbsp
-            <a href="https://www.instagram.com/codewithfourtix/">Instagram</a>
+            <a href="https://linkedin.com/in/codewithfourtix">LinkedIn</a> &nbsp/&nbsp
+            <a href="https://devpost.com/aalizulfiqar46">Devpost</a> &nbsp/&nbsp
+            <a href="https://instagram.com/code_with_fourtix">Instagram</a>
           </p>
         </td>
         <td style="padding:2.5%;width:40%;max-width:40%">
@@ -53,10 +59,12 @@
           <a href="https://doi.org/10.5281/zenodo.21772948"><papertitle>MillOS - agentic millwork estimation</papertitle></a>
           <br><strong>Ali Zulfiqar</strong>
           <br>
-          <p>An agentic platform that reads a commercial bid package and produces an
-          auditable takeoff: scope capture, measurement with scale custody, pricing,
-          and exact drawing annotation. I own the annotation engine, the estimation
-          studio frontend, and large parts of the agent reliability layer.</p>
+          <p>An agent-native platform (LangGraph, a lead estimator plus 8 subagents)
+          that turns architectural drawings into commercial bids. I rebuilt the
+          measurement engine to 0.42 percent live accuracy against a 2 percent bar,
+          built the annotation engine that places marks with median error of 0.1
+          inches, and own the estimation studio frontend and much of the agent
+          reliability layer.</p>
         </td>
       </tr>
       <tr>
@@ -68,7 +76,9 @@
           <br><strong>Ali Zulfiqar</strong>, Subhan, Abdullah
           <br>
           <p>A platform that automates appeals against insurance claim denials for US
-          healthcare organizations, built on a seven-node LangGraph pipeline. Co-founder.</p>
+          healthcare organizations: a seven-node LangGraph pipeline with pgvector
+          retrieval that grounds every appeal in similar successful cases. Applied to
+          Y Combinator (S26). Co-founder.</p>
         </td>
       </tr>
       <tr>
@@ -93,9 +103,10 @@
           <a href="https://github.com/codewithfourtix/ember"><papertitle>ember - LLM inference engine from scratch in Rust</papertitle></a>
           <br><strong>Ali Zulfiqar</strong>
           <br>
-          <p>A from-scratch inference engine that runs a Qwen2.5 model on your own
-          machine: tokenizer, weights loading, KV cache, and sampling, with no ML
-          framework underneath.</p>
+          <p>Runs Qwen2.5 on CPU with a hand-written transformer forward pass
+          (RMSNorm, RoPE, grouped-query attention with KV cache, SwiGLU) and custom
+          INT8/INT4 quantization, 4x and 7x smaller with INT8 quality-lossless by
+          perplexity. No ML framework; verified against a NumPy reference oracle.</p>
         </td>
       </tr>
       <tr>
@@ -103,11 +114,14 @@
           <a href="images/blueline.svg"><img src="images/blueline.svg" alt="blueline" width="160" height="auto"></a>
         </td>
         <td width="75%" valign="middle">
-          <a href="https://github.com/codewithfourtix/blueline"><papertitle>blueline - a self-driving car in your browser</papertitle></a>
+          <a href="https://realblueline.vercel.app/"><papertitle>blueline - a self-driving car in your browser</papertitle></a>
           <br><strong>Ali Zulfiqar</strong>
           <br>
-          <p>A real autonomy stack running client-side: perception, planning, and
-          control over a simulated road network, visualized live.</p>
+          <p>A full autonomous-vehicle stack in the browser: Frenet lattice planning,
+          Kalman multi-object tracking, Stanley control, and neural drivers trained
+          from scratch with no ML library (backprop plus Adam, imitation, DAgger,
+          neuroevolution). Deterministic tests assert zero collisions across nine
+          scenarios. <a href="https://github.com/codewithfourtix/blueline">Code</a>.</p>
         </td>
       </tr>
       <tr>
@@ -151,10 +165,13 @@
           <a href="images/zippo.svg"><img src="images/zippo.svg" alt="Zippo" width="160" height="auto"></a>
         </td>
         <td width="75%" valign="middle">
-          <a href="https://getzippo.com/"><papertitle>Zippo</papertitle></a>
+          <a href="https://getzippo.com/"><papertitle>Getzippo - AI document processing</papertitle></a>
           <br><strong>Ali Zulfiqar</strong>
           <br>
-          <p>A utility tool that reached 200+ active users in its first week.</p>
+          <p>200+ users in the first month via a Product Hunt launch. A hybrid
+          OCR-first pipeline cut LLM token cost 70 percent and multimodal batching
+          cut API overhead 96 percent, at sub-2s processing.
+          <a href="https://devpost.com/software/getzippo-omnd7v">Devpost</a>.</p>
         </td>
       </tr>
       <tr>
@@ -174,13 +191,33 @@
           <a href="images/hackathons.svg"><img src="images/hackathons.svg" alt="hackathon wins" width="160" height="auto"></a>
         </td>
         <td width="75%" valign="middle">
-          <a href="https://github.com/codewithfourtix/sachbatao"><papertitle>Hackathon wins: sachbatao and front-desk</papertitle></a>
+          <a href="https://devpost.com/aalizulfiqar46"><papertitle>Hackathon wins: Code for Pakistan and Aicoo</papertitle></a>
           <br><strong>Ali Zulfiqar</strong>
           <br>
-          <p>First place at the AI in Civic Innovation hackathon
-          (<a href="https://github.com/codewithfourtix/sachbatao">sachbatao</a>) and
-          first place at the Aicoo hackathon
-          (<a href="https://github.com/codewithfourtix/front-desk">front-desk</a>).</p>
+          <p>First place at Code for Pakistan, 150+ teams
+          (<a href="https://devpost.com/software/sach-batao">sach batao</a>), first
+          place for best use of API at Aicoo
+          (<a href="https://devpost.com/software/front-desk-kut7dr">front-desk</a>),
+          plus an honorary award; 300+ teams beaten collectively.</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="padding:20px;width:25%;vertical-align:middle">
+          <a href="images/opensource.svg"><img src="images/opensource.svg" alt="open source" width="160" height="auto"></a>
+        </td>
+        <td width="75%" valign="middle">
+          <a href="https://github.com/google-deepmind/optax/pull/1715"><papertitle>Open source: optax, SGLang, Rocket.Chat, ScanCode</papertitle></a>
+          <br><strong>Ali Zulfiqar</strong>
+          <br>
+          <p>Caught a numerical-correctness bug in
+          <a href="https://github.com/google-deepmind/optax/pull/1715">Google DeepMind's optax</a>,
+          confirmed by a maintainer as a genuine problem with the implementation;
+          fixed an LLM tool-call parser in
+          <a href="https://github.com/sgl-project/sglang/pull/28845">SGLang</a>;
+          landed fixes in
+          <a href="https://github.com/RocketChat/Rocket.Chat/pull/41030">Rocket.Chat</a> and
+          <a href="https://github.com/aboutcode-org/scancode-toolkit/pull/4781">scancode-toolkit</a>.
+          10+ PRs across open source.</p>
         </td>
       </tr>
       <tr>
@@ -221,16 +258,21 @@
           marks exact on a production sheet, median width error 0.1 inches.</p>
         </td>
       </tr>
-      <!-- TODO: add the SSRN LLM paper here with its link
       <tr>
-        <td style="padding:20px;width:25%;vertical-align:middle"></td>
+        <td style="padding:20px;width:25%;vertical-align:middle">
+          <a href="images/phs_paper.svg"><img src="images/phs_paper.svg" alt="PHS paper" width="160" height="auto"></a>
+        </td>
         <td width="75%" valign="middle">
-          <a href="SSRN_LINK"><papertitle>SSRN PAPER TITLE</papertitle></a>
+          <a href="https://ssrn.com/abstract=6425358"><papertitle>Proactive Heuristic Synthesis: Latent Idle Consolidation in LLMs</papertitle></a>
           <br><strong>Ali Zulfiqar</strong>
-          <br><em>SSRN</em>, YEAR
+          <br>
+          <em>Preprint, SSRN</em>, 2026
+          <br>
+          <a href="https://ssrn.com/abstract=6425358">SSRN</a>
+          <p>Shifts System-2 reasoning to asynchronous idle cycles, making response
+          latency independent of reasoning depth.</p>
         </td>
       </tr>
-      -->
     </tbody></table>
 
     <!-- footer ----------------------------------------------------------------------------->

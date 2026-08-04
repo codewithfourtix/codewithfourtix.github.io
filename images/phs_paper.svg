@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 160">
+  <rect x="1" y="1" width="198" height="158" fill="#ffffff" stroke="#c9d1d9"/>
+  <!-- timeline: busy, idle, busy -->
+  <line x1="24" y1="120" x2="176" y2="120" stroke="#444" stroke-width="2"/>
+  <rect x="30" y="96" width="34" height="24" fill="#1772d0" fill-opacity="0.2" stroke="#1772d0" stroke-width="2"/>
+  <rect x="132" y="96" width="34" height="24" fill="#1772d0" fill-opacity="0.2" stroke="#1772d0" stroke-width="2"/>
+  <!-- idle gap doing consolidation -->
+  <path d="M76 108 q10 -34 22 -34 q12 0 22 34" fill="none" stroke="#f09228" stroke-width="2.5" stroke-dasharray="5 4"/>
+  <circle cx="98" cy="58" r="14" fill="none" stroke="#f09228" stroke-width="2.5"/>
+  <path d="M98 50 v8 l6 4" fill="none" stroke="#f09228" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="70" y="146" font-family="Helvetica,Arial" font-size="10" fill="#555">idle-time reasoning</text>
+</svg>
